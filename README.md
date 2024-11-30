@@ -32,9 +32,9 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 # Getting Started
   Prerequisites
   Before you begin, ensure you have the following installed:
-    - Node.js (version 14 or later)
-    - npm (Node Package Manager)
-    - MySQL (for the backend database)
+  - Node.js (version 14 or later)
+  - npm (Node Package Manager)
+  - MySQL (for the backend database)
 
 # Folder Structure
   src: Contains the main frontend logic.
