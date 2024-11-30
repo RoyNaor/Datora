@@ -21,16 +21,6 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
 # Features
   - User Roles & Permissions: Admin, Manager, and Employee roles with tailored access to HR, Sales, and Admin dashboards.
   - Dynamic Dashboards: Seamless integration with Excel files to display HR and Sales data in real-time.
@@ -39,7 +29,22 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
   - Role-Based Access Control (RBAC): Prevent unauthorized access based on user roles.
   - Interactive Modals: Informative modals for logout confirmation, access denied messages, and About Us details with animations.
 
+# Getting Started
+  Prerequisites
+  Before you begin, ensure you have the following installed:
+    - Node.js (version 14 or later)
+    - npm (Node Package Manager)
+    - MySQL (for the backend database)
 
+# Folder Structure
+  src: Contains the main frontend logic.
+    - components/: Reusable UI components (e.g., Navbar, SideNavbar).
+    - dashboards/: Different dashboard implementations (HR, Sales, Admin Center).
+  pages/: Independent pages like SignUp.
+  styles/: CSS files for styling.
+  animations/: Lottie animation files for About Us modal.
+  backend/: The backend directory for managing user roles, permissions, and database logic (if hosted in the repository).
+  
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
