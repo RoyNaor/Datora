@@ -1,0 +1,183 @@
+/* Common Sidebar styling */
+.Sidebar {
+    height: 88vh;
+    width: 14%;
+    background: linear-gradient(135deg, #f77d7d, #fcb7b7);
+    color: #ffffff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.SideBarList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.SidebarRow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 20px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.SidebarRow:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.SidebarIcon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.SidebarTitle {
+    font-size: 18px;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.SidebarRow:active {
+    background-color: #f48989;
+}
+
+.SidebarBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    width: 50%;
+}
+
+.SidebarBottomIcon {
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.SidebarBottomIcon:hover {
+    color: #dbdada;
+}
+
+/* About Us Modal styling */
+.AboutUsModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f4ff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 600px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%; /* Ensure this modal takes more vertical space */
+}
+
+.AboutUsModal h2 {
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.AboutUsModal p {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 20px;
+    max-width: 90%;
+    line-height: 1.5;
+}
+
+.AboutUsModal button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #f44336; /* Red color for Close button */
+    color: white;
+}
+
+.AboutUsModal button:hover {
+    background-color: #e53935;
+}
+
+/* Logout Modal styling */
+.LogoutModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f7f9fc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 400px;
+    width: 90%; /* Slightly smaller width */
+}
+
+.LogoutModal h2 {
+    color: #222;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.LogoutModal p {
+    color: #444;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.LogoutModal button {
+    margin: 5px;
+    padding: 8px 18px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.LogoutModal button:first-of-type {
+    background-color: #4caf50;
+    color: white;
+}
+
+.LogoutModal button:first-of-type:hover {
+    background-color: #45a049;
+}
+
+.LogoutModal button:last-of-type {
+    background-color: #f44336;
+    color: white;
+}
+
+.LogoutModal button:last-of-type:hover {
+    background-color: #e53935;
+}
+
+/* Overlay styling for both modals */
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
