@@ -37,13 +37,13 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
   - MySQL (for the backend database)
 
 # Folder Structure
-  src: Contains the main frontend logic.
-    - components/: Reusable UI components (e.g., Navbar, SideNavbar).
-    - dashboards/: Different dashboard implementations (HR, Sales, Admin Center).
-  pages/: Independent pages like SignUp.
-  styles/: CSS files for styling.
-  animations/: Lottie animation files for About Us modal.
-  backend/: The backend directory for managing user roles, permissions, and database logic (if hosted in the repository).
+  - src: Contains the main frontend logic.
+  - components/: Reusable UI components (e.g., Navbar, SideNavbar).
+  - dashboards/: Different dashboard implementations (HR, Sales, Admin Center).
+  - pages/: Independent pages like SignUp.
+  - styles/: CSS files for styling.
+  - animations/: Lottie animation files for About Us modal.
+  - backend/: The backend directory for managing user roles, permissions, and database logic (if hosted in the repository).
   
 ## Learn More
 
